@@ -1,4 +1,4 @@
-// ====================================================================================================
+s// ====================================================================================================
 //
 // Cloud Code for RegistrationResponse, write your code here to customize the GameSparks platform.
 //
@@ -14,7 +14,7 @@ if(Spark.getData().error === undefined)
   var API = Spark.getGameDataService();
 
   //Create new entry
-  var entry = API.createItem("playerList", player.getPlayerId());
+  var entry = API.createItem("playersList", player.getPlayerId());
 
   //If valid, increment or initialise item
   var data = entry.getData();
